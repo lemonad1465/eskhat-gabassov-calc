@@ -11,3 +11,6 @@ The algorithms and mathematical logic are based on the following research:
 * **Python Version:** 3.13.5
 * **Core Libraries:** `sympy`, `streamlit`
 
+## Run app
+```bash
+streamlit run new_gui.py
