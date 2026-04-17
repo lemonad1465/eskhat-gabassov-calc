@@ -4,6 +4,13 @@ Requires: streamlit, sympy
 Run: streamlit run app.py
 """
 
+# Second version on Streamlit. Run by: streamlit run new_gui.py!!!
+#gui will open on browser
+
+# 2 Версия на Streamlit. Запускать через: streamlit run new_gui.py!
+# Gui будет в браузере. 
+
+
 import streamlit as st
 import sympy as sp
 from sympy import simplify, I, pi, Abs, exp
