@@ -27,22 +27,12 @@ hide_style = """
     </style>
 """
 
-# Применяем стили (теперь переменная точно существует до ее вызова)
+# Применяем стили 
 st.markdown(hide_style, unsafe_allow_html=True)
 # --- КОНЕЦ БЛОКА СКРЫТИЯ ИНТЕРФЕЙСА ---
 
-# Дальше идет ваш код:
-# from test import ( SPACES, QuadNum, parse_expr ... )
-
-
-
-
-
-
-
-
 # Импорт алгоритмического ядра
-from test import (
+from backend import (
     SPACES, QuadNum, parse_expr,
     compute_spectrum, spectrum_to_quad,
     quad_exp, quad_cos, quad_sin, quad_cosh, quad_sinh, quad_tan, quad_ln
