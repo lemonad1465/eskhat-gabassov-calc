@@ -136,7 +136,7 @@ def get_Y(p, sk):
     return QuadNum(comps, p, sk, True)
 
 # ═══════════════════════════════════════════════════════════════════
-# Конфигурация
+#  Конфигурация
 # ═══════════════════════════════════════════════════════════════════
 with st.expander("Step 1: Space Configuration", expanded=True):
     space_key = st.selectbox("Select Space", list(SPACES.keys()), key="space_key")
