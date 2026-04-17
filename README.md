@@ -1,10 +1,10 @@
 # 4D Number Algebra CAS
 
-This **Computer Algebra System (CAS)** — a software tool for symbolic mathematical manipulation — is designed to perform spectral analysis in four-dimensional functional spaces.
+This **Computer Algebra System (CAS)** — a software tool for symbolic mathematical manipulation — is designed to perform calculations in four-dimensional functional spaces.
 
 ## Reference
 The algorithms and mathematical logic are based on the following research:
-**"Symmetry in Functional Spaces: Spectral Analysis..."** (MDPI Symmetry, 2025).  
+**"Anisotropic Four-Dimensional Spaces of Real Numbers"** (MDPI Symmetry, 2025).  
 [Read the full paper here](https://www.mdpi.com/2073-8994/17/5/795)
 
 ## Technical Specifications
