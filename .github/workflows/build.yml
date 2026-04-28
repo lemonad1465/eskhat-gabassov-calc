@@ -31,7 +31,7 @@ jobs:
           --hidden-import sympy.core
           --hidden-import sympy.functions
           --name "4D_CAS"
-          app_tkinter.py
+          gui_tkinter.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
