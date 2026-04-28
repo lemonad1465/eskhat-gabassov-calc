@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: windows-latest
@@ -19,7 +22,16 @@ jobs:
         run: pip install pyinstaller sympy
 
       - name: Build EXE
-        run: pyinstaller --onefile --windowed --name "4D_CAS" app_tkinter.py
+        run: >
+          pyinstaller
+          --onefile
+          --windowed
+          --add-data "backend.py;."
+          --hidden-import sympy
+          --hidden-import sympy.core
+          --hidden-import sympy.functions
+          --name "4D_CAS"
+          app_tkinter.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
